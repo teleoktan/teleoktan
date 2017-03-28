@@ -1,5 +1,5 @@
 --Begin Tools.lua :)
-local SUDO = 123456789 -- put Your ID here! <===
+local SUDO = 172056505 -- put Your ID here! <===
 local function index_function(user_id)
   for k,v in pairs(_config.admins) do
     if user_id == v[1] then
@@ -369,12 +369,12 @@ end
    if not lang then
     return tdcli.sendMessage(arg.chat_id, "", 0, "_User_ "..user_name.." *"..data.id_.."* _is no longer a_ *sudoer*", 0, "md")
    else
-    return tdcli.sendMessage(arg.chat_id, "", 0, "_کاربر_ "..user_name.." *"..data.id_.."* _از مقام سودو ربات برکنار شد_", 0, "md")
+    return tdcli.sendMessage(arg.chat_id, "", 0, "_کاربر_ "..user_name.." *"..data.id_.."* _از مقام سودو ربات برکنار شدتمام_", 0, "md")
       end
    end
 else
     if lang then
-  return tdcli.sendMessage(arg.chat_id, "", 0, "_کاربر یافت نشد_", 0, "md")
+  return tdcli.sendMessage(arg.chat_id, "", 0, "_کاربری یافت نشد_", 0, "md")
    else
   return tdcli.sendMessage(arg.chat_id, "", 0, "*User Not Found*", 0, "md")
       end
@@ -497,7 +497,7 @@ tdcli.migrateGroupChatToChannelChat(id)
   if not lang then
 return '_Group Has Been Changed To SuperGroup!_'
   else
-return '_گروه به سوپر گروه تبدیل شد!_'
+return '_گروه شمابه سوپر گروه تبدیل شد!_'
    end
 end
 
@@ -629,7 +629,4 @@ run = run
 }
 
 -- کد های پایین در ربات نشان داده نمیشوند
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+-- سازنده : @aliaz001
